@@ -1,108 +1,129 @@
-# Nepal Places Puzzle Game
+Here is the complete Markdown code you can copy and paste into your `README.md` file for the **Nepal Places Puzzle Game**:
 
+````markdown
+# 🇳🇵 Nepal Places Puzzle Game
 
-An interactive educational game that combines puzzle-solving with learning about famous places in Nepal. Players solve sliding puzzles to reveal images of iconic Nepalese landmarks, learn interesting facts about each location, and test their knowledge through
-quizzes.
+> ⚠️ **Note:** *This is a basic educational game prototype developed in under an hour. It was created for fun and learning purposes, and serves as a starting point for future improvements. Contributions are welcome!*
 
-## Features
+An **interactive and educational sliding puzzle game** that introduces players to famous landmarks of Nepal. Solve puzzles, learn interesting facts, and test your knowledge through short quizzes — all in one simple and engaging experience.
 
-• **Interactive Puzzles**: Solve 3x3 sliding puzzles featuring famous places in Nepal
-• **Progress Tracking**: Visual progress bar shows how close you are to completing each puzzle
-• **Educational Content**: Learn fascinating facts about each location after solving its puzzle
-• **Knowledge Testing**: Quiz questions to test what you've learned
-• **Engaging Interface**: Congratulatory messages and visual feedback throughout the game
+---
 
-## Places Featured
+## 🧩 Game Highlights
 
-1. Pashupatinath Temple
-   • One of the most sacred Hindu temples dedicated to Lord Shiva
-   • Located on the banks of the Bagmati River in Kathmandu
-   • UNESCO World Heritage Site
+- 🎮 **Interactive 3x3 Sliding Puzzles**  
+  Solve sliding puzzles to reveal images of famous places in Nepal.
 
-2. Mount Everest
-   • Earth's highest mountain above sea level (8,848.86 meters)
-   • Known as "Sagarmatha" in Nepali
-   • First successfully climbed by Edmund Hillary and Tenzing Norgay in 1953
+- 📈 **Progress Tracking**  
+  Visual progress bar indicates your completion status during puzzles.
 
-3. Lumbini
-   • Birthplace of Siddhartha Gautama (Buddha)
-   • UNESCO World Heritage Site in the Rupandehi District
-   • Features the Maya Devi Temple and historic Ashoka Pillar
+- 📚 **Learn As You Play**  
+  Discover interesting facts about each landmark after solving its puzzle.
 
+- 🧠 **Knowledge Quiz**  
+  Test what you've learned with multiple-choice questions after each puzzle.
 
-### Prerequisites
-• Python 3.x
-• Pygame library
+- 🎉 **Engaging Feedback**  
+  Get congratulatory messages, score updates, and visual animations throughout the game.
 
-### Setup
-1. Clone the repository:
+---
 
-   git clone https://github.com/prarabda/nepal-puzzle-game.git
-   cd nepal-puzzle-game
+## 🌄 Places Featured
 
+1. **Pashupatinath Temple**
+   - One of the most sacred Hindu temples dedicated to Lord Shiva.
+   - Located on the banks of the Bagmati River in Kathmandu.
+   - Recognized as a UNESCO World Heritage Site.
 
-2. Install required dependencies:
+2. **Mount Everest (Sagarmatha)**
+   - Highest mountain in the world (8,848.86 meters).
+   - Known as “Sagarmatha” in Nepali.
+   - First summited by Edmund Hillary and Tenzing Norgay in 1953.
 
-   pip install pygame
+3. **Lumbini**
+   - Birthplace of Siddhartha Gautama (Buddha).
+   - Situated in the Rupandehi District of Nepal.
+   - Home to the Maya Devi Temple and the Ashoka Pillar.
 
+---
 
-  Or on Ubuntu/Debian systems:
+## 🖥️ Prerequisites
 
-   sudo apt-get install python3-pygame
+- Python 3.x  
+- Pygame Library
 
+---
 
-3. Run the game:
+## ⚙️ Setup Instructions
 
-   python3 nepal_puzzle_game.py
+1. **Clone the Repository**
 
+```bash
+git clone https://github.com/prarabda/nepal-puzzle-game.git
+cd nepal-puzzle-game
+````
 
-## How to Play
+2. **Install Dependencies**
 
-1. Start Screen: Click "Start Game" to begin
-2. Puzzle Stage:
-   • Click and swap puzzle pieces to arrange them correctly
-   • A progress bar shows how close you are to completion
-   • Complete the puzzle to reveal the full image
+```bash
+pip install pygame
+```
 
-3. Facts Stage:
-   • After completing a puzzle, read interesting facts about the location
-   • Click "Continue to Quiz" when ready
+Or for Ubuntu/Debian systems:
 
-4. Quiz Stage:
-   • Answer multiple-choice questions about the location
-   • Each correct answer adds to your score
+```bash
+sudo apt-get install python3-pygame
+```
 
-5. Results:
-   • After completing all puzzles and quizzes, see your final score
-   • Play again to improve your knowledge!
+3. **Run the Game**
 
-## Customization
+```bash
+python3 nepal_puzzle_game.py
+```
 
-You can customize the game by:
+---
 
-1. Adding your own images to the images folder with the following filenames:
-   • pashupatinath.jpg
-   • everest.jpg
-   • lumbini.jpg
+## 🎮 How to Play
 
-2. Modifying the game code to add more locations or change quiz questions
+1. **Start Screen**: Click “Start Game” to begin.
+2. **Puzzle Phase**: Rearrange the puzzle pieces to complete the image.
+3. **Learn Phase**: Read fun and educational facts about the revealed location.
+4. **Quiz Phase**: Answer multiple-choice questions based on the facts.
+5. **Results**: View your final score and replay to improve!
 
-## Contributing
+---
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+## 🛠️ Customization
+
+Want to expand the game?
+
+* Replace puzzle images by adding your own to the `images/` folder using these filenames:
+
+  * `pashupatinath.jpg`
+  * `everest.jpg`
+  * `lumbini.jpg`
+* Modify the source code to add new locations or quiz questions.
+
+---
+
+## 🤝 Contributing
+
+This is a simple demo project, but contributions are always welcome!
 
 1. Fork the repository
-2. Create your feature branch (git checkout -b feature/amazing-feature)
-3. Commit your changes (git commit -m 'Add some amazing feature')
-4. Push to the branch (git push origin feature/amazing-feature)
+2. Create your feature branch
+   `git checkout -b feature/your-feature-name`
+3. Commit your changes
+   `git commit -m "Add your feature"`
+4. Push to GitHub
+   `git push origin feature/your-feature-name`
 5. Open a Pull Request
 
-## License
+---
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
-• Pygame community for the excellent game development library
-• All contributors who help improve this educational game
-• Images sourced from [provide appropriate attribution]
+* **Pygame**: For making game development in Python accessible and fun.
+* **Everyone** who tries out and improves this little game project!
+
