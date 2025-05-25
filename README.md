@@ -1,5 +1,5 @@
 
-# 🇳🇵 Nepal Places Puzzle Game
+#  Nepal Places Puzzle Game
 
 > ⚠️ **Note:** *This is a basic educational game prototype developed in under an hour. It was created for fun and learning purposes, and serves as a starting point for future improvements. Contributions are welcome!*
 
